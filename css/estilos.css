@@ -1,0 +1,110 @@
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;   
+}
+html{
+     height:100%;
+}
+body{
+    height:100%;
+}
+main{
+    height:100%;
+    display: block;
+    position: relative;
+}
+.card{
+    height: 100%; display: block;
+    position: relative;
+}
+.card-header{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: steelblue;
+}
+footer{
+    text-align: center;
+    background-color: steelblue;
+    margin-bottom: -1em;
+    display: block;
+    height: 4%;
+}
+footer > small{
+    color: white;
+}
+
+#menuP{
+    display: inline-block;
+    position: relative;
+}
+#menuP > ul > li{
+    width: 170px;
+    margin: 2px 0;
+}
+#menuP > ul > li > a:hover{
+    border-bottom: 2px solid steelblue; 
+}
+#contenido a{
+    color: white;
+}
+p{
+    display: inline-block;
+}
+
+#contenido{
+    display: inline-block;
+    position: absolute;
+    width: 85%;
+    height: 95%;
+    margin-bottom: 3px;
+}
+#contenido button{
+    margin: 0 5px;
+    padding: 4px;
+}
+
+#contenido input{
+    width: 50%;
+    margin: 0 10px;
+}
+#contenido form div {
+    margin: .3em 0;
+}
+#contenido form label { 
+    width: 20%;
+}
+.form-group mx-2 form-inline{
+    text-align: right;
+}
+#contenido form{
+    margin-top: 1em;
+}
+
+#listaU{
+    width: 75%;
+    padding: 3px;
+    margin: 5px;
+    border: 1.5px solid steelblue;
+}
+#listaU a{
+    color: steelblue;
+}
+
+#idalerta{
+    position: relative;
+}
+#botones{
+    display: inline-block;
+    position: relative;
+    padding: 5px 0;
+    width: 100%;
+    height: 9%;
+}

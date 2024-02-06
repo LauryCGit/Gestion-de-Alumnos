@@ -1,0 +1,31 @@
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 5px 0;
+    color: white;
+}
+
+h4{
+    background-color: #e8e8e8;
+    padding: 0;
+}
+header{
+    background-color: steelblue;
+}
+footer{
+    text-align: center;
+    background-color: steelblue;
+}
+footer > small{
+    color: white;
+}
+
+.card-body{
+    height: 350px;
+}
+
+button{
+    width: 10%;
+}
